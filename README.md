@@ -1,5 +1,16 @@
 # Information Retrieval
 
+### hw 4
+
+2 modules:
+1. hw4.py - search with Bert; specify path to *tensors.pt* and *answers.txt*
+2. evaluation.py - evaluation for Bert; specify paths to *tensors.pt* and *questions.txt*; enjoy incredible accuracy!
+
+3 files:
+- *questions.txt*
+- *answers.txt*
+- *tensors.pt* - please download vectorized corpus from [Gdrive](https://drive.google.com/file/d/1CQkYSM2LIWD3iGMxNpef5b2qcyeQv2BF/view?usp=sharing)
+
 ### hw 3
 
 4 modules:
