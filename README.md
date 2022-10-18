@@ -1,5 +1,20 @@
 # Information Retrieval
 
+### final project
+
+5 modules:
+1. tfidf.py - initialize a search engine with tfidf
+2. bm25.py - initialize a search engine with bm25
+3. bert.py - initialize a search engine with bert
+4. corpus.py - Corpus class; mainly used for preprocessing with *Corpus.clean_text()*
+5. main.py - streamlit app
+
+in cmd: streamlit run main.py 'size'
+
+parameter *size* allows to choose a corpus to search in: 'small' (~ 500 documents), 'mid' (~ 30k documents), 'big' (~ 50k documents); default: 'mid'
+
+download required files from [Gdrive](https://drive.google.com/drive/folders/1NI2an4BTNJyFVo0nWehOpyLgtyD6jP9z?usp=sharing)
+
 ### hw 4
 
 2 modules:
