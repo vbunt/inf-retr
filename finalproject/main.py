@@ -26,11 +26,13 @@ except IndexError:
 
 tfidf_engine, bm_engine, bert_engine = initialize(size=size)
 
+
 st.text('Input your query')
 query = st.text_input(label='Input your query', label_visibility='collapsed')
 st.text('Pick a search method')
 answer = ''
 dur = 0
+
 
 col1, col2, col3, col4 = st.columns([1, 1, 1, 7])
 
